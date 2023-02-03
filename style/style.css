@@ -1,0 +1,63 @@
+/* CSS Start */
+/* Font hero Section */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@600&family=Roboto:wght@100&family=Unbounded:wght@500&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* Body section */
+body {
+  background-image: url(/assets/bg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 20px;
+  padding-left: 3%;
+  padding-right: 3%;
+}
+nav ul li {
+  list-style: none;
+  display: inline-block;
+  padding: 10px 20px;
+}
+nav ul li a {
+  color: #ffd104;
+  text-decoration: none;
+  font-size: 25px;
+}
+
+button {
+  border: none;
+  padding: 12px 30px;
+  border-radius: 5px;
+  color: #ffffff;
+  font-size: 15px;
+  background-color: #ff515f;
+  cursor: pointer;
+}
+
+/* Hero Section Start */
+
+.hero-section {
+  position: absolute;
+  top: 30%;
+  width: 100%;
+  text-align: center;
+  font-size: 40px;
+  color: #ffd104;
+  font-family: "Poppins", sans-serif;
+  font-family: "Roboto", sans-serif;
+  font-family: "Unbounded", cursive;
+}
+/* scrol logo / png */
+
+.scroll {
+  position: absolute;
+  bottom: 8px;
+  right: 16px;
+}
